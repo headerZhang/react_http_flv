@@ -1,0 +1,27 @@
+.one {
+  width: 100%;
+  height: 100%;
+
+  .centeredVideo {
+    width: 60%;
+    height: 70%;
+    object-fit: fill;
+    margin-top: 10px;
+  }
+
+  .ruler {
+    width: 100%;
+    height: 70px;
+    margin-top: 10px;
+
+    .ant-row {
+      margin: 0px !important;
+    }
+  }
+
+  .progress {
+    width: 100%;
+    height: 45px;
+    background: gray;
+  }
+}
